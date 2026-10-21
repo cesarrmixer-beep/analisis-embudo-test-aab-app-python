@@ -10,7 +10,7 @@ Análisis de embudo de conversión y test A/A/B de tienda emergente
 
 > Investigación del comportamiento de usuarios en app de alimentos: desde el embudo de ventas hasta la validación de un nuevo diseño de fuentes con un experimento A/A/B.
 
-## 📁 Archivo: 
+## 📁 Archivo: embudo_test_ab_app_comida.ipynb
 
 ### 🎯 Objetivo de Negocio
 1.  Entender el embudo: ¿Dónde se atascan los usuarios antes de pagar?
