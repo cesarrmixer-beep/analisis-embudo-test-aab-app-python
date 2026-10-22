@@ -1,9 +1,9 @@
 # 🍔 Análisis de Embudo y Test A/A/B - App de Comida
 
-[Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-[Funnel Analysis](https://img.shields.io/badge/Funnel_Analysis-FF6B35?style=for-the-badge)
-[A/A/B Test](https://img.shields.io/badge/A%2FA%2FB_Test-4ECDC4?style=for-the-badge)
-[Data Cleaning](https://img.shields.io/badge/Data_Cleaning-9B59B6?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Funnel Analysis](https://img.shields.io/badge/Funnel_Analysis-FF6B35?style=for-the-badge)
+![A/A/B Test](https://img.shields.io/badge/A%2FA%2FB_Test-4ECDC4?style=for-the-badge)
+![Data Cleaning](https://img.shields.io/badge/Data_Cleaning-9B59B6?style=for-the-badge)
 
 ![Histograma por Fecha y Hora - Validación de Muestra](histograma_fecha_hora.png)
 
