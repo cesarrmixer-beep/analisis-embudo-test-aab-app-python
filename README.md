@@ -1,4 +1,4 @@
-# 🧪 Experimento A/A/B - Validación de Nueva Feature
+# 🧪 Experimento A/A/B - Validación de Nueva imagen de la App 
 
 > ¿La nueva imagen de la app realmente aumenta la conversión o solo fue suerte?
 
