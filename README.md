@@ -2,7 +2,7 @@
 
 > ¿La nueva imagen de la app realmente aumenta la conversión o solo fue suerte?
 
-🔗 Notebook: [Pega aquí tu link del Notebook]
+🔗 Notebook: [embudo_test_ab_app_comida.ipynb]
 
 ---
 
