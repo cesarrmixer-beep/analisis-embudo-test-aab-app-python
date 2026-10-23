@@ -1,29 +1,46 @@
-# 🍔 Análisis de Embudo y Test A/A/B - App de Comida
+# 🧪 Experimento A/A/B - Validación de Nueva Feature
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Funnel Analysis](https://img.shields.io/badge/Funnel_Analysis-FF6B35?style=for-the-badge)
-![A/A/B Test](https://img.shields.io/badge/A%2FA%2FB_Test-4ECDC4?style=for-the-badge)
-![Data Cleaning](https://img.shields.io/badge/Data_Cleaning-9B59B6?style=for-the-badge)
+> ¿La nueva imagen de la app realmente aumenta la conversión o solo fue suerte?
 
-![Histograma por Fecha y Hora - Validación de Muestra](histograma_fecha_hora.png)
-
-> Investigación del comportamiento de usuarios en app de alimentos: desde el embudo de ventas hasta la validación de un nuevo diseño de fuentes con un experimento A/A/B.
-
-## 📁 Archivo: embudo_test_ab_app_comida.ipynb
-
-### 🎯 Objetivo de Negocio
-1.  Entender el embudo: ¿Dónde se atascan los usuarios antes de pagar?
-2.  Validar un rediseño: ¿Las nuevas fuentes asustan a los usuarios? Decisión basada en datos con test A/A/B (246 y 247 = control fuentes viejas, 248 = prueba fuentes nuevas).
-
-### 🛠️ Stack
-Python, Pandas, Matplotlib / Plotly, SciPy.stats, Seaborn, Numpy, Date time
-
-### ✅ Conclusión de Negocio
-Antes de la corrección: Pensabas que no había diferencias significativas
-Después de la corrección: Confirmas que definitivamente no hay diferencias significativas
-Conclusión final:
-Con un α ajustado de 0.05/20 = 0.0025, ninguna de tus pruebas alcanza este nivel de significancia más estricto.
-
+🔗 Notebook: [Pega aquí tu link del Notebook]
 
 ---
-*Proyecto por [cesarrmixer-beep](https://github.com/cesarrmixer-beep) - Jr. Data Analyst*
+
+### 🎯 ¿Qué problema de negocio resuelve?
+
+El equipo de diseño queire cambiar las fuentes de la app, pero la gerencia teme que los usuarios sientan este cambio como intimidante.
+
+**Objetivo del análisis:** Determinar mediante prueba de hipótesis si los cambios afectan el indice de conversion de usuarios.
+
+---
+
+### 🔍 ¿Qué hice?
+
+Diseñé y analicé un experimento A/A/B completo:
+
+1.  **Grupo A/A:** Validé que los dos grupos de control son estadísticamente iguales (para asegurar la confiabilidad del experimento)
+2.  **Grupo A/B:** Comparé control vs variante con test de significancia estadística
+3.  **Calcule p-value, power y tamaño de muestra con SciPy**
+
+**Stack:** Python | SciPy | Stats | Pandas | Matplotlib
+
+---
+
+### 📊 Hallazgos Clave
+
+### No hay diferencia estadísticamente significativa entre los grupos porque todos los valores p son mayores a 0.05.
+
+### Esto significa que:
+
+### Las fuentes nuevas (grupo 248) no mejoraron significativamente las conversiones
+### Los grupos de control se comportaron de manera similar entre sí
+### La diferencia observada puede deberse al azar, no a un efecto real
+
+---
+
+### 💼 Recomendación
+
+> Como recomendacion queda,revizar el diseño de la pantalla Tutorial, mejorar en ofrecer y anunciar mejores ofertas en la pantalla Offers y si esposible buscar ingresar publicidad o alguna clase de beneficio para quienes despuesde de agregar a Cart vallan directo a Payment
+
+### 👨‍💻 Autor
+Cesar R. | Data Analyst Jr. | GDL
